@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.png" alt="Navia Logo" width="200" />
+  <img src="./src/assets/logo.png" alt="Navia Logo" width="200" />
 </p>
 
 # Navia
