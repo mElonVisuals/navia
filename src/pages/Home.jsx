@@ -9,7 +9,7 @@ export default function Home() {
       {/* Background gradient or blur effect */}
       <div
         className="background-animated"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{ backgroundImage: "url('/bg.png')" }}
       ></div>
 
       <motion.main
