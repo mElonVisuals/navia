@@ -1,12 +1,35 @@
-# React + Vite
+# Navia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Private Project** — Not for Public Use
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+**Navia** is a sleek and modern personal gateway web application designed as a centralized portal to navigate multiple destinations seamlessly. Built with React and Tailwind CSS, Navia combines elegant glassmorphism styling, smooth animations, and a subtle custom background to deliver a polished user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- **Centralized Navigation**: Easily access Dashboard, About, and external links from a minimalist interface.
+- **Animated Logo**: Eye-catching logo with subtle shine and shake animations.
+- **Glassmorphism UI**: Modern translucent containers with blur effects for a refined look.
+- **Responsive Design**: Fully responsive layout optimized for desktop and mobile.
+- **Custom Animated Background**: Soft blurred background image with subtle animations.
+- **Built with React + Tailwind CSS**: Leveraging modern frontend technologies for maintainability and performance.
+- **Private Access**: Intended for restricted use only, ensuring internal workflows and navigation remain secure.
+
+---
+
+## Tech Stack
+
+- **React** — Frontend UI framework  
+- **Tailwind CSS** — Utility-first CSS framework for styling  
+- **Framer Motion** — Animation library for React  
+- **Vite** — Next-generation frontend build tool  
+- **Docker** — Containerization for consistent deployments  
+- **Coolify** — Hosting platform for easy Docker app deployment  
+- **GitHub** — Source code version control and repository hosting  
+
+---
