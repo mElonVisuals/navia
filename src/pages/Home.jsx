@@ -1,7 +1,7 @@
 import AnimatedButton from "../Components/AnimatedButton";
 import { motion } from "framer-motion";
 import logo from "../assets/logo.png"; // import logo properly
-import bgImage from "/bg.png";
+import bgImage from "/public/bg.png";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       {/* Background gradient or blur effect */}
       <div
         className="background-animated"
-        style={{ backgroundImage: "url('/bg.png')" }}
+        style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
 
       <motion.main
