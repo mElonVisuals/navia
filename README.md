@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/logo.png" alt="Navia Logo" width="200" />
+  <img src="./src/assets/logo.png" alt="Navia Logo" width="350" />
 </p>
 
 # Navia
@@ -37,3 +37,16 @@
 - **GitHub** — Source code version control and repository hosting  
 
 ---
+
+
+## LICENSE
+
+This project is private and confidential. Unauthorized copying, distribution, or public use is strictly prohibited.
+
+© 2025 Navia Project. All rights reserved.
+
+---
+
+## Contact
+
+For questions or support, please contact the project maintainer.
