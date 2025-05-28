@@ -1,7 +1,7 @@
 import AnimatedButton from "../Components/AnimatedButton";
 import { motion } from "framer-motion";
 import logo from "../assets/logo.png"; // import logo properly
-import bgImage from "/public/bg.png";
+import bgImage from "./bg.png";
 
 export default function Home() {
   return (
