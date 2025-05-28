@@ -1,32 +1,26 @@
 # Stage 1: Build React app
 FROM node:18-alpine AS builder
 
-# Set working directory inside container
 WORKDIR /app
 
-# Copy package.json and lockfile to install deps
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy all source files
 COPY . .
 
-# Build the app for production (creates /app/dist)
+# Build the app for production - React outputs to /app/build by default
 RUN npm run build
 
-# Stage 2: Serve the built app with a lightweight web server
+# Stage 2: Serve the built app with nginx
 FROM nginx:alpine
 
-# Copy the build output to nginx html folder
-COPY --from=builder /app/dist /usr/share/nginx/html
+# Copy React build output to nginx's serving directory
+COPY --from=builder /app/build /usr/share/nginx/html
 
-# Copy custom nginx config if needed (optional)
+# Optional: copy your nginx config if you have a custom one
+# If you don't have nginx.conf, comment this line out
 COPY nginx.conf /etc/nginx/nginx.conf
 
-# Expose port 80
 EXPOSE 80
 
-# Start nginx
 CMD ["nginx", "-g", "daemon off;"]
